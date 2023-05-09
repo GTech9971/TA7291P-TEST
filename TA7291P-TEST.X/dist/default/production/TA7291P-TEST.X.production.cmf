@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xclYsTQLx/driver_tmp_15.o
+$/tmp/xcHrfFMM0/driver_tmp_15.o
 idloc IDLOC 5 8000 8000 4 2 1
 reset_vec CODE 0 0 0 2 2 1
 end_init CODE 0 2 2 2 2 1
@@ -114,125 +114,125 @@ STRING 800-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/TA7291P-TEST.X.production.o
-7EF cinit CODE >1779:/tmp/xclYsTQLx/driver_tmp_1.s
-7EF cinit CODE >1782:/tmp/xclYsTQLx/driver_tmp_1.s
-7EF cinit CODE >1796:/tmp/xclYsTQLx/driver_tmp_1.s
-7F0 cinit CODE >1797:/tmp/xclYsTQLx/driver_tmp_1.s
-7F1 cinit CODE >1798:/tmp/xclYsTQLx/driver_tmp_1.s
-7F2 cinit CODE >1799:/tmp/xclYsTQLx/driver_tmp_1.s
-7F3 cinit CODE >1800:/tmp/xclYsTQLx/driver_tmp_1.s
-7F4 cinit CODE >1801:/tmp/xclYsTQLx/driver_tmp_1.s
-7F5 cinit CODE >1802:/tmp/xclYsTQLx/driver_tmp_1.s
-7F6 cinit CODE >1803:/tmp/xclYsTQLx/driver_tmp_1.s
-7F7 cinit CODE >1804:/tmp/xclYsTQLx/driver_tmp_1.s
-7F8 cinit CODE >1805:/tmp/xclYsTQLx/driver_tmp_1.s
-7F9 cinit CODE >1806:/tmp/xclYsTQLx/driver_tmp_1.s
-7FA cinit CODE >1807:/tmp/xclYsTQLx/driver_tmp_1.s
-7FB cinit CODE >1808:/tmp/xclYsTQLx/driver_tmp_1.s
-7FC cinit CODE >1809:/tmp/xclYsTQLx/driver_tmp_1.s
-7FD cinit CODE >1815:/tmp/xclYsTQLx/driver_tmp_1.s
-7FD cinit CODE >1817:/tmp/xclYsTQLx/driver_tmp_1.s
-7FE cinit CODE >1818:/tmp/xclYsTQLx/driver_tmp_1.s
-6A2 text14 CODE >58:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A2 text14 CODE >61:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A5 text14 CODE >63:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A6 text14 CODE >65:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A8 text14 CODE >66:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-710 text13 CODE >55:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-710 text13 CODE >60:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-712 text13 CODE >61:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-713 text13 CODE >66:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-716 text13 CODE >67:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-718 text13 CODE >72:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-71B text13 CODE >73:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-71D text13 CODE >78:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-71F text13 CODE >79:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-720 text13 CODE >80:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-722 text13 CODE >86:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-724 text13 CODE >87:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-725 text13 CODE >94:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
-699 text12 CODE >68:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-699 text12 CODE >71:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-69C text12 CODE >72:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A9 text11 CODE >50:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6A9 text11 CODE >53:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6AC text11 CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6AF text11 CODE >55:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6B2 text11 CODE >56:/Users/george/MPLABXProjects/TA7291P-TEST.X/mcc_generated_files/mcc.c
-6B3 text10 CODE >3:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6B4 text10 CODE >4:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6BC text10 CODE >5:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6BD text9 CODE >13:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6BE text9 CODE >14:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6C6 text9 CODE >15:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-726 text8 CODE >50:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-726 text8 CODE >52:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-731 text8 CODE >55:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-73C text8 CODE >56:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-73D text7 CODE >39:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-73E text7 CODE >40:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-741 text7 CODE >40:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-743 text7 CODE >40:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-747 text7 CODE >41:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-74F text7 CODE >42:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-75A text7 CODE >44:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6EC text6 CODE >86:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6ED text6 CODE >87:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6F1 text6 CODE >88:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6F5 text6 CODE >90:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6FD text6 CODE >91:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6C7 text5 CODE >6:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6C8 text5 CODE >7:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6D0 text5 CODE >8:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6D1 text4 CODE >10:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6D2 text4 CODE >11:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6DA text4 CODE >12:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6FE text3 CODE >74:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6FF text3 CODE >75:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-703 text3 CODE >76:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-707 text3 CODE >78:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-70F text3 CODE >79:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-75B text2 CODE >21:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-75C text2 CODE >26:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-764 text2 CODE >27:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-76B text2 CODE >28:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-773 text2 CODE >31:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-77C text2 CODE >32:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6DB text1 CODE >62:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6DC text1 CODE >63:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6E0 text1 CODE >64:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6E4 text1 CODE >66:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-6EB text1 CODE >67:/Users/george/MPLABXProjects/TA7291P-TEST.X/ta7291p.c
-77D maintext CODE >7:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-77D maintext CODE >10:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-780 maintext CODE >16:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-78E maintext CODE >17:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-792 maintext CODE >22:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-795 maintext CODE >24:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-797 maintext CODE >26:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-798 maintext CODE >28:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-79B maintext CODE >32:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-79E maintext CODE >34:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-79F maintext CODE >36:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7A0 maintext CODE >38:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7A2 maintext CODE >40:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7A4 maintext CODE >48:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7A6 maintext CODE >48:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7AC maintext CODE >49:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7AE maintext CODE >52:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7B1 maintext CODE >52:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7B3 maintext CODE >52:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7B7 maintext CODE >53:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7BF maintext CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7C3 maintext CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7C5 maintext CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7CC maintext CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7CE maintext CODE >54:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7D2 maintext CODE >55:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7DA maintext CODE >56:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7DB maintext CODE >57:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7DF maintext CODE >60:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
-7E7 maintext CODE >62:/Users/george/MPLABXProjects/TA7291P-TEST.X/main.c
+7EF cinit CODE >1779:/tmp/xcHrfFMM0/driver_tmp_1.s
+7EF cinit CODE >1782:/tmp/xcHrfFMM0/driver_tmp_1.s
+7EF cinit CODE >1796:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F0 cinit CODE >1797:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F1 cinit CODE >1798:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F2 cinit CODE >1799:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F3 cinit CODE >1800:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F4 cinit CODE >1801:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F5 cinit CODE >1802:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F6 cinit CODE >1803:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F7 cinit CODE >1804:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F8 cinit CODE >1805:/tmp/xcHrfFMM0/driver_tmp_1.s
+7F9 cinit CODE >1806:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FA cinit CODE >1807:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FB cinit CODE >1808:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FC cinit CODE >1809:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FD cinit CODE >1815:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FD cinit CODE >1817:/tmp/xcHrfFMM0/driver_tmp_1.s
+7FE cinit CODE >1818:/tmp/xcHrfFMM0/driver_tmp_1.s
+6A2 text14 CODE >58:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A2 text14 CODE >61:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A5 text14 CODE >63:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A6 text14 CODE >65:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A8 text14 CODE >66:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+710 text13 CODE >55:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+710 text13 CODE >60:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+712 text13 CODE >61:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+713 text13 CODE >66:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+716 text13 CODE >67:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+718 text13 CODE >72:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+71B text13 CODE >73:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+71D text13 CODE >78:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+71F text13 CODE >79:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+720 text13 CODE >80:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+722 text13 CODE >86:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+724 text13 CODE >87:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+725 text13 CODE >94:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/pin_manager.c
+699 text12 CODE >68:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+699 text12 CODE >71:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+69C text12 CODE >72:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A9 text11 CODE >50:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6A9 text11 CODE >53:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6AC text11 CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6AF text11 CODE >55:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6B2 text11 CODE >56:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/mcc_generated_files/mcc.c
+6B3 text10 CODE >3:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6B4 text10 CODE >4:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6BC text10 CODE >5:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6BD text9 CODE >13:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6BE text9 CODE >14:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6C6 text9 CODE >15:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+726 text8 CODE >50:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+726 text8 CODE >52:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+731 text8 CODE >55:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+73C text8 CODE >56:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+73D text7 CODE >39:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+73E text7 CODE >40:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+741 text7 CODE >40:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+743 text7 CODE >40:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+747 text7 CODE >41:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+74F text7 CODE >42:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+75A text7 CODE >44:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6EC text6 CODE >86:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6ED text6 CODE >87:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6F1 text6 CODE >88:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6F5 text6 CODE >90:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6FD text6 CODE >91:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6C7 text5 CODE >6:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6C8 text5 CODE >7:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6D0 text5 CODE >8:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6D1 text4 CODE >10:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6D2 text4 CODE >11:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6DA text4 CODE >12:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6FE text3 CODE >74:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6FF text3 CODE >75:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+703 text3 CODE >76:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+707 text3 CODE >78:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+70F text3 CODE >79:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+75B text2 CODE >21:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+75C text2 CODE >26:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+764 text2 CODE >27:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+76B text2 CODE >28:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+773 text2 CODE >31:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+77C text2 CODE >32:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6DB text1 CODE >62:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6DC text1 CODE >63:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6E0 text1 CODE >64:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6E4 text1 CODE >66:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+6EB text1 CODE >67:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
+77D maintext CODE >7:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+77D maintext CODE >10:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+780 maintext CODE >16:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+78E maintext CODE >17:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+792 maintext CODE >22:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+795 maintext CODE >24:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+797 maintext CODE >26:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+798 maintext CODE >28:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+79B maintext CODE >32:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+79E maintext CODE >34:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+79F maintext CODE >36:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7A0 maintext CODE >38:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7A2 maintext CODE >40:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7A4 maintext CODE >48:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7A6 maintext CODE >48:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7AC maintext CODE >49:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7AE maintext CODE >52:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7B1 maintext CODE >52:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7B3 maintext CODE >52:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7B7 maintext CODE >53:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7BF maintext CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7C3 maintext CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7C5 maintext CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7CC maintext CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7CE maintext CODE >54:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7D2 maintext CODE >55:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7DA maintext CODE >56:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7DB maintext CODE >57:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7DF maintext CODE >60:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
+7E7 maintext CODE >62:/Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -265,12 +265,12 @@ _LATB 10D 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 _TMR2 1A 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 _WPUB 20D 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xclYsTQLx/driver_tmp_15.o
+___sp 0 0 STACK 2 stack /tmp/xcHrfFMM0/driver_tmp_15.o
 _back DD8 0 CODE 0 text6 dist/default/production/TA7291P-TEST.X.production.o
 _main EFA 0 CODE 0 maintext dist/default/production/TA7291P-TEST.X.production.o
 _stop DB6 0 CODE 0 text1 dist/default/production/TA7291P-TEST.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
-start 4 0 CODE 0 init /tmp/xclYsTQLx/driver_tmp_15.o
+start 4 0 CODE 0 init /tmp/xcHrfFMM0/driver_tmp_15.o
 pwm_load_duty_value@duty_value 70 0 COMMON 1 cstackCOMMON dist/default/production/TA7291P-TEST.X.production.o
 _set_input1_pin_low D66 0 CODE 0 text10 dist/default/production/TA7291P-TEST.X.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
@@ -278,12 +278,12 @@ __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 stop@p 77 0 COMMON 1 cstackCOMMON dist/default/production/TA7291P-TEST.X.production.o
 __end_of_pwm_load_duty_value E7A 0 CODE 0 text8 dist/default/production/TA7291P-TEST.X.production.o
-intlevel0 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
-intlevel1 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
-intlevel2 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
-intlevel3 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
-intlevel4 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
-intlevel5 0 0 ENTRY 0 functab /tmp/xclYsTQLx/driver_tmp_15.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcHrfFMM0/driver_tmp_15.o
 wtemp0 7E 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -296,8 +296,8 @@ _CCPR3L 311 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 set_input1_pin_high@p 71 0 COMMON 1 cstackCOMMON dist/default/production/TA7291P-TEST.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
 initialize@p 71 0 COMMON 1 cstackCOMMON dist/default/production/TA7291P-TEST.X.production.o
-___stackhi 0 0 ABS 0 - /tmp/xclYsTQLx/driver_tmp_15.o
-___stacklo 0 0 ABS 0 - /tmp/xclYsTQLx/driver_tmp_15.o
+___stackhi 0 0 ABS 0 - /tmp/xcHrfFMM0/driver_tmp_15.o
+___stacklo 0 0 ABS 0 - /tmp/xcHrfFMM0/driver_tmp_15.o
 main@ta7291p 22 0 BANK0 1 cstackBANK0 dist/default/production/TA7291P-TEST.X.production.o
 _PIN_MANAGER_Initialize E20 0 CODE 0 text13 dist/default/production/TA7291P-TEST.X.production.o
 start_initialization FDE 0 CODE 0 cinit dist/default/production/TA7291P-TEST.X.production.o
@@ -305,7 +305,7 @@ _OSCCON 99 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 __end_of_SYSTEM_Initialize D66 0 CODE 0 text11 dist/default/production/TA7291P-TEST.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production/TA7291P-TEST.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
-___int_sp 0 0 STACK 2 stack /tmp/xclYsTQLx/driver_tmp_15.o
+___int_sp 0 0 STACK 2 stack /tmp/xcHrfFMM0/driver_tmp_15.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -448,7 +448,7 @@ __end_of_forward E20 0 CODE 0 text3 dist/default/production/TA7291P-TEST.X.produ
 _SYSTEM_Initialize D52 0 CODE 0 text11 dist/default/production/TA7291P-TEST.X.production.o
 _set_input2_pin_low DA2 0 CODE 0 text4 dist/default/production/TA7291P-TEST.X.production.o
 __Lintentry 4 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xclYsTQLx/driver_tmp_15.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcHrfFMM0/driver_tmp_15.o
 _CCPTMRS0bits 29E 0 ABS 0 - dist/default/production/TA7291P-TEST.X.production.o
 forward@value 77 0 COMMON 1 cstackCOMMON dist/default/production/TA7291P-TEST.X.production.o
 __pdataBANK0 27 0 BANK0 1 dataBANK0 dist/default/production/TA7291P-TEST.X.production.o
@@ -515,8 +515,8 @@ __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __H__absolute__ 0 0 ABS 0 __absolute__ -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-___heap_hi 0 0 ABS 0 - /tmp/xclYsTQLx/driver_tmp_15.o
-___heap_lo 0 0 ABS 0 - /tmp/xclYsTQLx/driver_tmp_15.o
+___heap_hi 0 0 ABS 0 - /tmp/xcHrfFMM0/driver_tmp_15.o
+___heap_lo 0 0 ABS 0 - /tmp/xcHrfFMM0/driver_tmp_15.o
 __end_of__initialization FFA 0 CODE 0 cinit dist/default/production/TA7291P-TEST.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
 __pidataBANK0 D3A 0 CODE 0 idataBANK0 dist/default/production/TA7291P-TEST.X.production.o

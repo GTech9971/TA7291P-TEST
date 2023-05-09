@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.41 build 20230208172133 
-                                                                                               Tue May  9 22:47:30 2023
+                                                                                               Tue May  9 22:49:26 2023
 
 Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1 
      1                           	processor	16F1827
@@ -932,38 +932,38 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
    918                           
    919                           	psect	cstackCOMMON
    920     0070                     __pcstackCOMMON:
-   921     0070                     ?_SYSTEM_Initialize:
-   922     0070                     ??_SYSTEM_Initialize:	
+   921     0070                     ?_OSCILLATOR_Initialize:
+   922     0070                     ??_OSCILLATOR_Initialize:	
    923                           ; 1 bytes @ 0x0
    924                           
-   925     0070                     ?_initialize:	
+   925     0070                     ?_WDT_Initialize:	
    926                           ; 1 bytes @ 0x0
    927                           
-   928     0070                     ??_initialize:	
+   928     0070                     ??_WDT_Initialize:	
    929                           ; 1 bytes @ 0x0
    930                           
-   931     0070                     ?_stop:	
+   931     0070                     ?_initialize:	
    932                           ; 1 bytes @ 0x0
    933                           
-   934     0070                     ?_OSCILLATOR_Initialize:	
+   934     0070                     ??_initialize:	
    935                           ; 1 bytes @ 0x0
    936                           
-   937     0070                     ??_OSCILLATOR_Initialize:	
+   937     0070                     ?_stop:	
    938                           ; 1 bytes @ 0x0
    939                           
-   940     0070                     ?_WDT_Initialize:	
+   940     0070                     ?_pwm_load_duty_value:	
    941                           ; 1 bytes @ 0x0
    942                           
-   943     0070                     ??_WDT_Initialize:	
+   943     0070                     ?_PIN_MANAGER_Initialize:	
    944                           ; 1 bytes @ 0x0
    945                           
-   946     0070                     ?_pwm_load_duty_value:	
+   946     0070                     ??_PIN_MANAGER_Initialize:	
    947                           ; 1 bytes @ 0x0
    948                           
-   949     0070                     ?_PIN_MANAGER_Initialize:	
+   949     0070                     ?_SYSTEM_Initialize:	
    950                           ; 1 bytes @ 0x0
    951                           
-   952     0070                     ??_PIN_MANAGER_Initialize:	
+   952     0070                     ??_SYSTEM_Initialize:	
    953                           ; 1 bytes @ 0x0
    954                           
    955     0070                     ?_main:	
@@ -2020,7 +2020,7 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   2006                           
   2007                           ;mcc_generated_files/mcc.c: 55:     WDT_Initialize();
   2008     06AF  3186  2699  3186   	fcall	_WDT_Initialize
-  2009     06B2                     l88:
+  2009     06B2                     l45:
   2010     06B2  0008               	return
   2011     06B3                     __end_of_SYSTEM_Initialize:
   2012                           
@@ -2067,7 +2067,7 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   2053     0699  3016               	movlw	22
   2054     069A  0021               	movlb	1	; select bank1
   2055     069B  0097               	movwf	23	;volatile
-  2056     069C                     l94:
+  2056     069C                     l51:
   2057     069C  0008               	return
   2058     069D                     __end_of_WDT_Initialize:
   2059                           
@@ -2213,7 +2213,7 @@ Microchip MPLAB XC8 C Compiler v2.41 (Free license) build 20230208172133 Og1
   2199                           ;mcc_generated_files/mcc.c: 65:     BORCON = 0x00;
   2200     06A6  0022               	movlb	2	; select bank2
   2201     06A7  0196               	clrf	22	;volatile
-  2202     06A8                     l91:
+  2202     06A8                     l48:
   2203     06A8  0008               	return
   2204     06A9                     __end_of_OSCILLATOR_Initialize:
   2205     007E                     btemp	set	126	;btemp
@@ -2538,10 +2538,10 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.41 build 20230208172133 
-Symbol Table                                                                                   Tue May  9 22:47:30 2023
+Symbol Table                                                                                   Tue May  9 22:49:26 2023
 
-                            l25 0725                              l91 06A8                              l94 069C  
-                            l88 06B2                              u90 0747                              u91 0746  
+                            l25 0725                              l51 069C                              l45 06B2  
+                            l48 06A8                              u90 0747                              u91 0746  
                             u85 0735                             l112 06D0                             l121 077C  
                            l115 06DA                             l131 06EB                             l109 06BC  
                            l125 075A                             l118 06C6                             l134 070F  
