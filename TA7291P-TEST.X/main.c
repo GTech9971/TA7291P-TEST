@@ -13,7 +13,7 @@ void main(void)
     //input2_pin RA1
     //vref_pin RA3
     //speed 0
-    TA7291P ta7291p = {0x00, 0x01, 0x08, 0};
+    TA7291P ta7291p = {0x01, 0x02, 0x08, 0};
     initialize(&ta7291p);
 
     
@@ -39,23 +39,23 @@ void main(void)
     
     uint16_t count = 0;
 
-    
-    //0~500 forward
-    //501~1000 back
-    //1001~1023 stop 
+    //pwmの値が低いとモーターが動かないある程度の値は必要
+    bool is_forward = true;    
     while (1)
     {
         if(count == 1023){
             count = 0;
+            stop(&ta7291p);
+            __delay_ms(1000);
+            is_forward = !is_forward;
         }
         
-        if(count >= 0 && count <= 500){
+        if(is_forward){
             forward(&ta7291p, count);
-        }else if(count >= 501 && count <= 1000){
-            back(&ta7291p, count);
         }else{
-            stop(&ta7291p);
-        }
+            back(&ta7291p, count);
+        }        
+        
                 
         __delay_ms(10);
         

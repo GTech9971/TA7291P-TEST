@@ -132,12 +132,14 @@
 {
 [s S92 . 5 `uc 1 input1_pin 1 0 `uc 1 input2_pin 1 1 `uc 1 vref_pin 1 2 `us 1 speed 2 3 ]
 "16
-[v main@ta7291p ta7291p `S92  1 a 5 2 ]
+[v main@ta7291p ta7291p `S92  1 a 5 3 ]
 "40
-[v main@count count `us  1 a 2 0 ]
+[v main@count count `us  1 a 2 1 ]
+"42
+[v main@is_forward is_forward `a  1 a 1 0 ]
 "10
 [v main@F2836 F2836 `S92  1 s 5 F2836 ]
-"64
+"63
 } 0
 "62 /Users/george/Documents/GitHub/TA7291P-TEST/TA7291P-TEST.X/ta7291p.c
 [v _stop stop `(v  1 e 1 0 ]

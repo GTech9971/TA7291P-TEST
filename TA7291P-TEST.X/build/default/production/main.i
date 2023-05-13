@@ -4326,22 +4326,18 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "/Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/xc.h" 2 3
-# 49 "./mcc_generated_files/mcc.h" 2
-
-# 1 "./mcc_generated_files/device_config.h" 1
 # 50 "./mcc_generated_files/mcc.h" 2
-
+# 1 "./mcc_generated_files/device_config.h" 1
+# 51 "./mcc_generated_files/mcc.h" 2
 # 1 "./mcc_generated_files/pin_manager.h" 1
 # 78 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
 # 90 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 51 "./mcc_generated_files/mcc.h" 2
-
+# 52 "./mcc_generated_files/mcc.h" 2
 
 # 1 "/Applications/microchip/xc8/v2.41/pic/include/c99/stdbool.h" 1 3
-# 53 "./mcc_generated_files/mcc.h" 2
-
+# 54 "./mcc_generated_files/mcc.h" 2
 # 1 "/Applications/microchip/xc8/v2.41/pic/include/c99/conio.h" 1 3
 
 
@@ -4496,15 +4492,14 @@ char *ctermid(char *);
 
 char *tempnam(const char *, const char *);
 # 8 "/Applications/microchip/xc8/v2.41/pic/include/c99/conio.h" 2 3
-# 54 "./mcc_generated_files/mcc.h" 2
+# 55 "./mcc_generated_files/mcc.h" 2
 # 69 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
 # 82 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
 # 94 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 1 "main.c" 2
-
+# 2 "main.c" 2
 # 1 "././ta7291p.h" 1
 
 
@@ -4579,8 +4574,7 @@ void forward(TA7291P *p, uint16_t value);
 
 
 void back(TA7291P *p, uint16_t value);
-# 2 "main.c" 2
-
+# 3 "main.c" 2
 
 
 
@@ -4594,7 +4588,7 @@ void main(void)
 
 
 
-    TA7291P ta7291p = {0x00, 0x01, 0x08, 0};
+    TA7291P ta7291p = {0x01, 0x02, 0x08, 0};
     initialize(&ta7291p);
 
 
@@ -4620,23 +4614,22 @@ void main(void)
 
     uint16_t count = 0;
 
-
-
-
-
+    _Bool is_forward = 1;
     while (1)
     {
         if(count == 1023){
             count = 0;
+            stop(&ta7291p);
+            _delay((unsigned long)((1000)*(8000000/4000.0)));
+            is_forward = !is_forward;
         }
 
-        if(count >= 0 && count <= 500){
+        if(is_forward){
             forward(&ta7291p, count);
-        }else if(count >= 501 && count <= 1000){
-            back(&ta7291p, count);
         }else{
-            stop(&ta7291p);
+            back(&ta7291p, count);
         }
+
 
         _delay((unsigned long)((10)*(8000000/4000.0)));
 

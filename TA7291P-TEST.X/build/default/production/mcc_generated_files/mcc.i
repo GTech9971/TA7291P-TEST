@@ -4327,22 +4327,18 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "/Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/xc.h" 2 3
-# 49 "mcc_generated_files/mcc.h" 2
-
-# 1 "mcc_generated_files/device_config.h" 1
 # 50 "mcc_generated_files/mcc.h" 2
-
+# 1 "mcc_generated_files/device_config.h" 1
+# 51 "mcc_generated_files/mcc.h" 2
 # 1 "mcc_generated_files/pin_manager.h" 1
 # 78 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
 # 90 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 51 "mcc_generated_files/mcc.h" 2
-
+# 52 "mcc_generated_files/mcc.h" 2
 
 # 1 "/Applications/microchip/xc8/v2.41/pic/include/c99/stdbool.h" 1 3
-# 53 "mcc_generated_files/mcc.h" 2
-
+# 54 "mcc_generated_files/mcc.h" 2
 # 1 "/Applications/microchip/xc8/v2.41/pic/include/c99/conio.h" 1 3
 
 
@@ -4497,15 +4493,14 @@ char *ctermid(char *);
 
 char *tempnam(const char *, const char *);
 # 8 "/Applications/microchip/xc8/v2.41/pic/include/c99/conio.h" 2 3
-# 54 "mcc_generated_files/mcc.h" 2
+# 55 "mcc_generated_files/mcc.h" 2
 # 69 "mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
 # 82 "mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
 # 94 "mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 47 "mcc_generated_files/mcc.c" 2
-
+# 48 "mcc_generated_files/mcc.c" 2
 
 
 void SYSTEM_Initialize(void)

@@ -8,7 +8,7 @@ static void set_input1_pin_high(TA7291P *p){
 }
 
 static void set_input2_pin_low(TA7291P *p){
-    LATA &= ~p->input1_pin;
+    LATA &= ~p->input2_pin;
 }
 static void set_input2_pin_high(TA7291P *p){
     LATA |= p->input2_pin;

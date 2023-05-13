@@ -54,19 +54,19 @@ Version 4.0 HI-TECH Software Intermediate Code
 "981
 [; ;/Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/proc/pic16f1827.h: 981: extern volatile unsigned char T2CON __attribute__((address(0x01C)));
 [v _T2CON `Vuc ~T0 @X0 0 e@28 ]
-"66 ././ta7291p.h
-[; ;././ta7291p.h: 66: void forward(TA7291P *p, uint16_t value);
-[v _forward `(v ~T0 @X0 0 ef2`*S356`us ]
-"73
-[; ;././ta7291p.h: 73: void back(TA7291P *p, uint16_t value);
-[v _back `(v ~T0 @X0 0 ef2`*S356`us ]
-"59
+"59 ././ta7291p.h
 [; ;././ta7291p.h: 59: void stop(TA7291P *p);
 [v _stop `(v ~T0 @X0 0 ef1`*S356 ]
 [v F192 `(v ~T0 @X0 1 tf1`ul ]
 "12 /Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/builtins.h
 [v __delay `JF192 ~T0 @X0 0 e ]
 [p i __delay ]
+"66 ././ta7291p.h
+[; ;././ta7291p.h: 66: void forward(TA7291P *p, uint16_t value);
+[v _forward `(v ~T0 @X0 0 ef2`*S356`us ]
+"73
+[; ;././ta7291p.h: 73: void back(TA7291P *p, uint16_t value);
+[v _back `(v ~T0 @X0 0 ef2`*S356`us ]
 "54 /Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/proc/pic16f1827.h
 [; ;/Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/include/proc/pic16f1827.h: 54: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -558,9 +558,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 :U ..
 :U ..
 "16
-[; ;main.c: 16:     TA7291P ta7291p = {0x00, 0x01, 0x08, 0};
--> -> 0 `i `uc
+[; ;main.c: 16:     TA7291P ta7291p = {0x01, 0x02, 0x08, 0};
 -> -> 1 `i `uc
+-> -> 2 `i `uc
 -> -> 8 `i `uc
 -> -> 0 `i `us
 ..
@@ -599,67 +599,69 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 40:     uint16_t count = 0;
 [v _count `us ~T0 @X0 1 a ]
 [e = _count -> -> 0 `i `us ]
-"46
-[; ;main.c: 46:     while (1)
+"42
+[; ;main.c: 42:     _Bool is_forward = 1;
+[v _is_forward `a ~T0 @X0 1 a ]
+[e = _is_forward -> -> 1 `i `a ]
+"43
+[; ;main.c: 43:     while (1)
 [e :U 359 ]
-"47
-[; ;main.c: 47:     {
+"44
+[; ;main.c: 44:     {
 {
-"48
-[; ;main.c: 48:         if(count == 1023){
+"45
+[; ;main.c: 45:         if(count == 1023){
 [e $ ! == -> _count `ui -> -> 1023 `i `ui 361  ]
 {
-"49
-[; ;main.c: 49:             count = 0;
+"46
+[; ;main.c: 46:             count = 0;
 [e = _count -> -> 0 `i `us ]
+"47
+[; ;main.c: 47:             stop(&ta7291p);
+[e ( _stop (1 &U _ta7291p ]
+"48
+[; ;main.c: 48:             _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"49
+[; ;main.c: 49:             is_forward = !is_forward;
+[e = _is_forward -> -> ! != -> _is_forward `i -> 0 `i `i `a ]
 "50
 [; ;main.c: 50:         }
 }
 [e :U 361 ]
 "52
-[; ;main.c: 52:         if(count >= 0 && count <= 500){
-[e $ ! && >= -> _count `ui -> -> 0 `i `ui <= -> _count `ui -> -> 500 `i `ui 362  ]
+[; ;main.c: 52:         if(is_forward){
+[e $ ! != -> _is_forward `i -> 0 `i 362  ]
 {
 "53
 [; ;main.c: 53:             forward(&ta7291p, count);
 [e ( _forward (2 , &U _ta7291p _count ]
 "54
-[; ;main.c: 54:         }else if(count >= 501 && count <= 1000){
+[; ;main.c: 54:         }else{
 }
 [e $U 363  ]
 [e :U 362 ]
-[e $ ! && >= -> _count `ui -> -> 501 `i `ui <= -> _count `ui -> -> 1000 `i `ui 364  ]
 {
 "55
 [; ;main.c: 55:             back(&ta7291p, count);
 [e ( _back (2 , &U _ta7291p _count ]
 "56
-[; ;main.c: 56:         }else{
+[; ;main.c: 56:         }
 }
-[e $U 365  ]
-[e :U 364 ]
-{
-"57
-[; ;main.c: 57:             stop(&ta7291p);
-[e ( _stop (1 &U _ta7291p ]
-"58
-[; ;main.c: 58:         }
-}
-[e :U 365 ]
 [e :U 363 ]
-"60
-[; ;main.c: 60:         _delay((unsigned long)((10)*(8000000/4000.0)));
+"59
+[; ;main.c: 59:         _delay((unsigned long)((10)*(8000000/4000.0)));
 [e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"62
-[; ;main.c: 62:         count++;
+"61
+[; ;main.c: 61:         count++;
 [e ++ _count -> -> 1 `i `us ]
-"63
-[; ;main.c: 63:     }
+"62
+[; ;main.c: 62:     }
 }
 [e :U 358 ]
 [e $U 359  ]
 [e :U 360 ]
-"64
-[; ;main.c: 64: }
+"63
+[; ;main.c: 63: }
 [e :UE 357 ]
 }

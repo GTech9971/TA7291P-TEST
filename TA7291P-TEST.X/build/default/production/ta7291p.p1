@@ -531,8 +531,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _p `*S354 ~T0 @X0 1 r1 ]
 [f ]
 "11
-[; ;ta7291p.c: 11:     LATA &= ~p->input1_pin;
-[e =& _LATA -> ~ -> . *U _p 0 `i `Vuc ]
+[; ;ta7291p.c: 11:     LATA &= ~p->input2_pin;
+[e =& _LATA -> ~ -> . *U _p 1 `i `Vuc ]
 "12
 [; ;ta7291p.c: 12: }
 [e :UE 357 ]
